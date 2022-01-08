@@ -33,3 +33,7 @@ int check_line(char *str)
     }
     return (-1);
 }
+
+int read_l(int fd)
+{
+}
