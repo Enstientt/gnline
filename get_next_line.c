@@ -87,3 +87,7 @@ char	*get_next_line(int fd)
 	}
 	return (buff);
 }
+
+int read_l(int fd)
+{
+}
