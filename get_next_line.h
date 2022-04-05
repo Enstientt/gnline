@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbenkhat <mbenkhat@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zessadqu <zessadqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/16 16:53:42 by mbenkhat          #+#    #+#             */
-/*   Updated: 2021/11/23 10:09:05 by mbenkhat         ###   ########.fr       */
+/*   Created: 2022/01/16 16:53:42 by zessadqu          #+#    #+#             */
+/*   Updated: 2022/04/04 13:36:05 by zessadqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# include <fcntl.h>
 
 char	*get_next_line(int fd);
 size_t	ft_strlen(const char *s);
